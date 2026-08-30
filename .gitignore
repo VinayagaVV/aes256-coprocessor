@@ -1,0 +1,17 @@
+# Verilator build output
+sim/obj_dir*/
+sim/*_pch.h*
+
+# C++ build artifacts
+sim/*.o
+sim/*.d
+
+# Prebuilt binaries (rebuild with verilator)
+sim/sim_e2e
+sim/sim_pipeline
+
+# Generic
+*.obj
+*.exe
+__pycache__/
+*.pyc
